@@ -1,113 +1,100 @@
-/* General Page Styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
-
-/* Main Container */
 .crud-container {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  text-align: center;
-  color: #333;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    color: #333;
 }
-
-/* Input Fields */
 .input-box {
-  width: calc(100% - 16px);
-  padding: 10px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
-
-/* Buttons */
 .btn {
-  padding: 10px 14px;
-  margin: 10px 5px;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  border-radius: 4px;
-  transition: 0.3s;
+    padding: 10px 14px;
+    margin: 10px 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 0.3s;
 }
-
 .btn.add {
-  background: #007bff;
-  color: white;
+    background: #007bff;
+    color: white;
 }
-
 .btn.add:hover {
-  background: #0056b3;
+    background: #0056b3;
 }
-
 .btn.delete {
-  background: #dc3545;
-  color: white;
+    background: #dc3545;
+    color: white;
 }
-
 .btn.delete:hover {
-  background: #a71d2a;
+    background: #a71d2a;
 }
-
 .btn.edit {
-  background: #28a745;
-  color: white;
+    background: #28a745;
+    color: white;
 }
-
 .btn.edit:hover {
-  background: #1e7e34;
+    background: #1e7e34;
 }
-
-/* Search Results Dropdown */
 .search-results {
-  position: absolute;
-  background: white;
-  width: 380px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  max-height: 150px;
-  overflow-y: auto;
-  z-index: 1000;
-  margin-top: 2px;
-  color: #333;
+    position: absolute;
+    background: white;
+    width: 380px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    margin-top: 2px;
+    color: #333;
 }
-
 .search-item {
-  padding: 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
 }
-
 .search-item:hover {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 
-/* Selected Product Details */
 .product-details {
-  margin-top: 20px;
-  padding: 15px;
-  background: #fafafa;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  text-align: left;
+    margin-top: 20px;
+    padding: 15px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
 }
-
 .product-details h3 {
-  color: #333;
+    color: #333;
 }
-
 .product-details p {
-  margin: 5px 0;
-  font-size: 14px;
-  color: #333;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+.add-form {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
